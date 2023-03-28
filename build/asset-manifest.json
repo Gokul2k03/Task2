@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Advanced_UI/static/css/main.97ab3ff9.chunk.css",
+    "main.js": "/Advanced_UI/static/js/main.f8356863.chunk.js",
+    "main.js.map": "/Advanced_UI/static/js/main.f8356863.chunk.js.map",
+    "runtime-main.js": "/Advanced_UI/static/js/runtime-main.964c3b15.js",
+    "runtime-main.js.map": "/Advanced_UI/static/js/runtime-main.964c3b15.js.map",
+    "static/css/2.09a314a2.chunk.css": "/Advanced_UI/static/css/2.09a314a2.chunk.css",
+    "static/js/2.6de1a50f.chunk.js": "/Advanced_UI/static/js/2.6de1a50f.chunk.js",
+    "static/js/2.6de1a50f.chunk.js.map": "/Advanced_UI/static/js/2.6de1a50f.chunk.js.map",
+    "index.html": "/Advanced_UI/index.html",
+    "static/css/2.09a314a2.chunk.css.map": "/Advanced_UI/static/css/2.09a314a2.chunk.css.map",
+    "static/css/main.97ab3ff9.chunk.css.map": "/Advanced_UI/static/css/main.97ab3ff9.chunk.css.map",
+    "static/js/2.6de1a50f.chunk.js.LICENSE.txt": "/Advanced_UI/static/js/2.6de1a50f.chunk.js.LICENSE.txt",
+    "static/media/l1_sh_img1.31742997.png": "/Advanced_UI/static/media/l1_sh_img1.31742997.png",
+    "static/media/l1_sh_img2.7ab108bd.png": "/Advanced_UI/static/media/l1_sh_img2.7ab108bd.png",
+    "static/media/l2shimg1.e1fbdcb0.png": "/Advanced_UI/static/media/l2shimg1.e1fbdcb0.png",
+    "static/media/l2shimg2.a2b88dd7.png": "/Advanced_UI/static/media/l2shimg2.a2b88dd7.png",
+    "static/media/l3shimg1.a097d14f.png": "/Advanced_UI/static/media/l3shimg1.a097d14f.png",
+    "static/media/l3shimg2.e9e087f3.png": "/Advanced_UI/static/media/l3shimg2.e9e087f3.png",
+    "static/media/l4shimg1.0db5502e.png": "/Advanced_UI/static/media/l4shimg1.0db5502e.png",
+    "static/media/l4shimg2.5f7f048e.png": "/Advanced_UI/static/media/l4shimg2.5f7f048e.png",
+    "static/media/l4shimgbun.5845a18d.png": "/Advanced_UI/static/media/l4shimgbun.5845a18d.png",
+    "static/media/l4shimgpizza.0dd9fc63.png": "/Advanced_UI/static/media/l4shimgpizza.0dd9fc63.png",
+    "static/media/l4shimgroll.b9e4ec54.png": "/Advanced_UI/static/media/l4shimgroll.b9e4ec54.png",
+    "static/media/l5shimg1.e2b53c77.png": "/Advanced_UI/static/media/l5shimg1.e2b53c77.png",
+    "static/media/l5shimg2.351cc80c.png": "/Advanced_UI/static/media/l5shimg2.351cc80c.png",
+    "static/media/l5shimg3.683c1946.png": "/Advanced_UI/static/media/l5shimg3.683c1946.png",
+    "static/media/l5shimg4.f43cb027.png": "/Advanced_UI/static/media/l5shimg4.f43cb027.png",
+    "static/media/l5shimg5.fb313ef8.png": "/Advanced_UI/static/media/l5shimg5.fb313ef8.png",
+    "static/media/l6shimg.5215dff0.png": "/Advanced_UI/static/media/l6shimg.5215dff0.png",
+    "static/media/l7shimg1.1f36bb92.png": "/Advanced_UI/static/media/l7shimg1.1f36bb92.png",
+    "static/media/l7shimg2.d4ad151b.png": "/Advanced_UI/static/media/l7shimg2.d4ad151b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.964c3b15.js",
+    "static/css/2.09a314a2.chunk.css",
+    "static/js/2.6de1a50f.chunk.js",
+    "static/css/main.97ab3ff9.chunk.css",
+    "static/js/main.f8356863.chunk.js"
+  ]
+}
