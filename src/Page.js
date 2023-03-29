@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './Page.css';
-import { BiMessageDots } from "react-icons/bi";
 import { useMediaQuery } from 'react-responsive'
 import ReactTextTransition from "react-text-transition";
 import OwlCarousel from 'react-owl-carousel';
+import msg from './images/msg.png'
 import l1_fh_img from './images/l1_fh_img.png'
 import l1_sh_img1 from './images/l1_sh_img1.png'
 import l1_sh_img2 from './images/l1_sh_img2.png'
@@ -219,23 +219,30 @@ const Page = () => {
       <div id={second_half_layer} className='secondhalf'>
           <img className={top_p_text[3] === 'ABC 456' ? 'l1sheffectin' : 'l1sheffectout'} style={{marginLeft: '100px', position: 'absolute'}} alt='mobile img 1' src={l1_sh_img1}/>
           <img className={top_p_text[3] === 'ABC 456' ? 'l1sheffectin' : 'l1sheffectout'} style={{marginLeft: '500px', position: 'absolute'}} alt='mobile img 2' src={l1_sh_img2}/>
+          <img className='msg' alt='message' src={msg} />
           <img className={top_p_text[3] === 'ABC 457' ? 'l2shimg1effectin' : 'l2shimg1effectout'} style={{marginLeft: '200px', position: 'absolute'}} alt='mobile img 1' src={l2shimg1}/>
           <img className={top_p_text[3] === 'ABC 457' ? 'l2shimg2effectin' : 'l2shimg2effectout'} style={{marginLeft: '700px', position: 'absolute'}} alt='mobile img 2' src={l2shimg2}/>
+          <img className='msg' alt='message' src={msg} />
           <img className={top_p_text[3] === 'ABC 458' ? 'l3shimg1effectin' : 'l3shimg1effectout'} style={{marginLeft: '150px', position: 'absolute'}} alt='mobile img 1' src={l3shimg1}/>
           <img className={top_p_text[3] === 'ABC 458' ? 'l3shimg2effectin' : 'l3shimg2effectout'} style={{marginLeft: '700px', position: 'absolute'}} alt='mobile img 2' src={l3shimg2}/>
+          <img className='msg' alt='message' src={msg} />
           <img className={top_p_text[3] === 'ABC 459' ? 'l4shimg1effectin' : 'l4shimg1effectout'} style={{marginLeft: '100px', position: 'absolute'}} alt='mobile img 1' src={l4shimg1}/>
           <img className={top_p_text[3] === 'ABC 459' ? 'l4shimg2effectin' : 'l4shimg2effectout'} style={{marginLeft: '550px', position: 'absolute'}} alt='mobile img 2' src={l4shimg2}/>
           <img className={top_p_text[3] === 'ABC 459' ? 'l4shimgbuneffectin' : 'l4shimgbuneffectout'} style={{right: '80px', position: 'absolute', width: '250px', height: 'auto'}} alt='mobile img 3' src={l4shimgbun}/>
           <img className={top_p_text[3] === 'ABC 459' ? 'l4shimgrolleffectin' : 'l4shimgrolleffectout'} style={{bottom: '-125px', position: 'absolute', width: '500px', height: 'auto'}} alt='mobile img 4' src={l4shimgroll}/>
           <img className={top_p_text[3] === 'ABC 459' ? 'l4shimgpizzaeffectin' : 'l4shimgpizzaeffectout'} style={{position: 'absolute', width: '600px', marginTop: '-115px'}} alt='mobile img 5' src={l4shimgpizza}/>
+          <img className='msg' alt='message' src={msg} />
           <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg1effectin' : 'l5shimg1effectout'} style={{marginLeft: '150px', position: 'absolute'}} alt='mobile img 1' src={l5shimg1}/>
           <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg2effectin' : 'l5shimg2effectout'} style={{marginLeft: '485px', position: 'absolute'}} alt='mobile img 2' src={l5shimg2}/>
           <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg3effectin' : 'l5shimg3effectout'} style={{top: '22vh', position: 'absolute'}} alt='mobile img 3' src={l5shimg3}/>
           <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg4effectin' : 'l5shimg4effectout'} style={{marginLeft: '485px', position: 'absolute'}} alt='mobile img 4' src={l5shimg4}/>
-          <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg5effectin' : 'l5shimg5effectout'} style={{marginLeft: '150px', position: 'absolute'}} alt='mobile img 5' src={l5shimg5}/>  
+          <img className={top_p_text[3] === 'ABC 4510' ? 'l5shimg5effectin' : 'l5shimg5effectout'} style={{marginLeft: '150px', position: 'absolute'}} alt='mobile img 5' src={l5shimg5}/>
+          <img className='msg' alt='message' src={msg} />  
           <img className={top_p_text[3] === 'ABC 4511' ? 'l6shimgeffectin' : 'l6shimgeffectout'} style={{position: 'absolute', width: '100%'}} alt='mobile img 1' src={l6shimg}/>  
+          <img className='msg' alt='message' src={msg} />
           <img className={top_p_text[3] === 'ABC 23478' ? 'l7shimg2effectin' : 'l7shimg2effectout'} style={{marginLeft: '650px', position: 'absolute'}} alt='mobile img 1' src={l7shimg2}/>  
           <img className={top_p_text[3] === 'ABC 23478' ? 'l7shimg1effectin' : 'l7shimg1effectout'} style={{marginLeft: '225px', position: 'absolute'}} alt='mobile img 2' src={l7shimg1}/>  
+          <img className='msg' alt='message' src={msg} />
       </div>
     </div> : <div style={{width: '100%', height: '100%'}}>
         <OwlCarousel items={1} loop autoplay autoplayTimeout={3000} autoplaySpeed={1000} dots>

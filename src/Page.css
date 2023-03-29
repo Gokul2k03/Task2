@@ -822,3 +822,11 @@
   background-color: rgb(226, 226, 226) !important;
   opacity: 0.8;
 }
+
+.msg{
+  padding-left: 90%;
+  padding-top: 68%;
+  height: 9%;
+  width: -20%;
+  position: absolute;
+}
