@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Page.css';
+import { BiMessageDots } from "react-icons/bi";
 import { useMediaQuery } from 'react-responsive'
 import ReactTextTransition from "react-text-transition";
 import OwlCarousel from 'react-owl-carousel';
